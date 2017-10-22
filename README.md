@@ -4,7 +4,7 @@ Ruby on Railsを学習するためのリポジトリ。
 ## 初期設定
 参考記事：http://maetoo11.hatenablog.com/entry/2016/03/04/144216
 ### bundle init
-progect毎にgemを管理するため、bundlerを使用する。  
+project毎にgemを管理するため、bundlerを使用する。  
 Gemfileのgem railsを有効化  
 
 ## bundle install --path vendor/bundle --jobs=4
