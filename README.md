@@ -10,3 +10,6 @@ Gemfileのgem railsを有効化
 ## bundle install --path vendor/bundle --jobs=4
 `--path vendor/bundle` を指定して、 vendor/bundleディレクトリにgemをインストール  
 `--jobs=4`を指定して、bundle install を並列処理で実行する  
+
+## bundle exec rails new .
+Gemfileは上書きする。 
