@@ -7,12 +7,14 @@ Ruby on Railsを学習するためのリポジトリ。
 project毎にgemを管理するため、bundlerを使用する。  
 Gemfileのgem railsを有効化  
 
-## bundle install --path vendor/bundle --jobs=4
+### bundle install --path vendor/bundle --jobs=4
 `--path vendor/bundle` を指定して、 vendor/bundleディレクトリにgemをインストール  
 `--jobs=4`を指定して、bundle install を並列処理で実行する  
 
-## bundle exec rails new .
+### bundle exec rails new .
 プロジェクトのテンプレートを作成する。Gemfileは上書きする。
 
 ## Controller作成
 ### bundle exec rails generate controller hello
+hello_controller.rb, routes.rbを修正する
+
