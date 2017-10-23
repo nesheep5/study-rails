@@ -12,4 +12,7 @@ Gemfileのgem railsを有効化
 `--jobs=4`を指定して、bundle install を並列処理で実行する  
 
 ## bundle exec rails new .
-Gemfileは上書きする。 
+プロジェクトのテンプレートを作成する。Gemfileは上書きする。
+
+## Controller作成
+### bundle exec rails generate controller hello
