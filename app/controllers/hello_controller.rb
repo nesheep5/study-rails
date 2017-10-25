@@ -4,4 +4,7 @@ class HelloController < ApplicationController
     render :plain => 'hello world!!'
   end
 
+  def view
+    @msg = "hello world!!!"
+  end
 end
