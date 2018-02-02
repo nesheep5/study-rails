@@ -3,4 +3,6 @@ Rails.application.routes.draw do
   get 'hello' => 'hello#index'
   get 'hello/view' => 'hello#view'
 
+  get 'view/keyword'
+  post 'keyword/search'
 end
