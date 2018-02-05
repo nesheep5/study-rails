@@ -8,4 +8,5 @@ Rails.application.routes.draw do
   post 'keyword/search'
   get 'view/form_tag'
   post 'view/create'
+  get 'view/form_for'
 end
